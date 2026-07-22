@@ -6,24 +6,47 @@
   <title>traumababies</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap" rel="stylesheet" />
   <style>
-    :root { --ink:#1a1b1d; --muted:#6b6c6f; --line:#e6e6e8; --green:#7bbb60; --bg:#ffffff; }
-    * { box-sizing: border-box; }
-    body { margin:0; background:var(--bg); color:var(--ink);
-      font-family:"Jost","Futura","Century Gothic",sans-serif; line-height:1.7; }
-    .wrap { max-width:660px; margin:0 auto; padding:80px 24px 96px; }
-    h1 { font-size:32px; font-weight:600; letter-spacing:-0.01em; margin:0 0 10px; }
-    .tagline { font-size:18px; color:var(--muted); margin:0 0 48px;
-      padding-bottom:32px; border-bottom:1px solid var(--line); }
-    h2 { font-size:20px; font-weight:600; margin:0 0 10px; }
-    p { font-size:16px; margin:0 0 20px; }
-    .app { margin-bottom:40px; }
-    .more { font-size:16px; color:var(--muted); font-style:italic; margin:40px 0; }
-    .contact { margin-top:40px; padding-top:28px; border-top:1px solid var(--line);
-      font-size:15px; color:var(--muted); }
-    a { color:var(--green); text-decoration:none; border-bottom:1px solid var(--green); }
-    a:hover { opacity:0.75; }
+    :root {
+      --ink: #6b6c6f;
+      --accent: #7bbb60;
+      --bg: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Jost", sans-serif;
+      font-size: 17px;
+      line-height: 1.7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px;
+    }
+    .wrap { max-width: 560px; width: 100%; }
+    h1 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    h2 {
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    p { margin-bottom: 20px; }
+    .tagline { margin-bottom: 56px; }
+    .app { margin-bottom: 56px; }
+    .footer { font-size: 17px; }
+    a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -34,13 +57,12 @@
     <div class="app">
       <h2>Sticky Notes for Gmail</h2>
       <p>Attach a note to any email conversation. Your notes are saved in your own Google Drive, so they stay with the conversation. We do not have servers, so we never see or store your notes. They are yours.</p>
+      <p><a href="/stickynotes/privacy.html">Privacy Policy</a></p>
     </div>
 
-    <p class="more">More apps on the way.</p>
+    <p>More apps on the way.</p>
 
-    <p><a href="/stickynotes/privacy.html">Privacy Policy</a></p>
-
-    <p class="contact">info@traumababies.com</p>
+    <p class="footer"><a href="mailto:info@traumababies.com">info@traumababies.com</a></p>
   </div>
 </body>
 </html>
