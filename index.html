@@ -27,33 +27,19 @@
       padding: 40px 24px;
     }
     .wrap { max-width: 560px; width: 100%; }
-    h1 {
-      font-size: 24px;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    h2 {
-      font-size: 17px;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    p { margin-bottom: 20px; }
-    .tagline { margin-bottom: 56px; }
-    .app { margin-bottom: 32px; }
-    .footer { font-size: 17px; }
-    a {
-      color: var(--accent);
-      font-weight: 600;
-      text-decoration: none;
-    }
+    .wrap > * { margin-bottom: 28px; }
+    .wrap > *:last-child { margin-bottom: 0; }
+    h1 { font-size: 24px; font-weight: 600; }
+    h2 { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
+    .app p { margin-bottom: 0; }
+    a { color: var(--accent); font-weight: 600; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .footer a { font-weight: 400; }
   </style>
 </head>
 <body>
   <div class="wrap">
     <h1>traumababies</h1>
-    <p class="tagline">We build apps that respect your data, your inbox, and your right to be left alone.</p>
+    <p>We build apps that respect your data, your inbox, and your right to be left alone.</p>
 
     <div class="app">
       <h2>Sticky Notes for Gmail</h2>
@@ -64,7 +50,7 @@
 
     <p><a href="/stickynotes/privacy.html">Privacy Policy</a></p>
 
-    <p class="footer"><a href="mailto:info@traumababies.com">info@traumababies.com</a></p>
+    <p>info@traumababies.com</p>
   </div>
 </body>
 </html>
