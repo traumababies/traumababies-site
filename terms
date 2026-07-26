@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terms of Service — Sticky Notes for Gmail</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root { --ink: #6b6c6f; --accent: #7bbb60; --bg: #ffffff; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--ink); font-family: "Jost", sans-serif; font-size: 17px; line-height: 1.7; padding: 64px 24px 96px; }
+    .wrap { max-width: 620px; margin: 0 auto; }
+    .wrap > * { margin-bottom: 22px; }
+    .wrap > *:last-child { margin-bottom: 0; }
+    h1 { font-size: 24px; font-weight: 600; margin-bottom: 4px; }
+    .date { margin-bottom: 28px; font-size: 15px; }
+    h2 { font-size: 18px; font-weight: 600; color: var(--accent); margin-bottom: 6px; margin-top: 10px; }
+    strong { font-weight: 600; }
+    a { color: var(--accent); font-weight: 600; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Terms of Service</h1>
+    <p class="date">Sticky Notes for Gmail™ — Effective July 26, 2026</p>
+
+    <p>These Terms of Service (&ldquo;Terms&rdquo;) govern your use of Sticky Notes for Gmail (the &ldquo;app,&rdquo; comprising the Chrome extension and the companion Google Workspace add-on), published by <strong>traumababies</strong> (&ldquo;we,&rdquo; &ldquo;us&rdquo;). By installing or using the app, you agree to these Terms. If you do not agree, do not use the app.</p>
+
+    <h2>1. What the app does</h2>
+    <p>The app lets you attach private text notes to individual Gmail conversations. Your notes are stored in your own Google Drive, in a private application-data folder. We operate no servers and do not receive, store, or access your notes. See our <a href="https://traumababies.com/stickynotes/privacy">Privacy Policy</a> for details.</p>
+
+    <h2>2. Your Google account and data</h2>
+    <p>The app requires access to your own Google Drive (limited to a private app folder) to save and sync your notes. You are responsible for your Google account and its security. Because your notes reside in your own Google Drive, their availability, backup, and retention are governed by Google&rsquo;s terms and your own account settings, not by us.</p>
+
+    <h2>3. Acceptable use</h2>
+    <p>You agree to use the app only for lawful purposes and not to misuse, interfere with, reverse engineer, or attempt to disrupt the app or the services it relies on. You are solely responsible for the content of the notes you create.</p>
+
+    <h2>4. No warranty</h2>
+    <p>The app is provided &ldquo;as is&rdquo; and &ldquo;as available,&rdquo; without warranties of any kind, express or implied, including but not limited to merchantability, fitness for a particular purpose, and non-infringement. We do not warrant that the app will be uninterrupted, error-free, or that notes will always sync or be preserved. You are responsible for keeping your own copies of anything important.</p>
+
+    <h2>5. Limitation of liability</h2>
+    <p>To the fullest extent permitted by law, <strong>traumababies</strong> shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of data, arising out of or relating to your use of or inability to use the app. Because we operate no servers and hold no copy of your notes, we have no ability to recover data stored in your Google Drive.</p>
+
+    <h2>6. Third-party services</h2>
+    <p>The app relies on Google services (Gmail, Google Drive, Google Workspace, and Chrome). Your use of those services is governed by Google&rsquo;s own terms. We are not responsible for the availability, performance, or policies of third-party services. Gmail, Google Drive, Google Workspace, and Chrome are trademarks of Google LLC. Sticky Notes for Gmail is not created by, affiliated with, or endorsed by Google.</p>
+
+    <h2>7. Changes to the app or Terms</h2>
+    <p>We may update, modify, or discontinue the app, and we may revise these Terms. Revised Terms will be posted here with a new effective date. Your continued use after changes take effect constitutes acceptance.</p>
+
+    <h2>8. Ownership and transfer</h2>
+    <p>We may sell or transfer the app. In that event, these Terms may be assigned to the new owner, who will be bound by the commitments described here and in the Privacy Policy.</p>
+
+    <h2>9. Termination</h2>
+    <p>You may stop using the app at any time by uninstalling it. Uninstalling does not delete notes already stored in your Google Drive; you may remove those through your Google account.</p>
+
+    <h2>10. Contact</h2>
+    <p>Questions about these Terms: <a href="mailto:stickynotes@traumababies.com">stickynotes@traumababies.com</a></p>
+  </div>
+</body>
+</html>
