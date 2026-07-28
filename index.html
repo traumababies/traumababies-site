@@ -3,54 +3,78 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>traumababies</title>
+  <title>traumababies — privacy-first apps</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap" rel="stylesheet" />
   <style>
-    :root {
-      --ink: #6b6c6f;
-      --accent: #7bbb60;
-      --bg: #ffffff;
-    }
+    :root { --ink: #6b6c6f; --accent: #7bbb60; --bg: #ffffff; --light: #f6f6f6; --line: #e3e3e5; }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body { height: 100%; }
-    body {
-      background: var(--bg);
-      color: var(--ink);
-      font-family: "Jost", sans-serif;
-      font-size: 17px;
-      line-height: 1.7;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 40px 24px;
-    }
-    .wrap { max-width: 560px; width: 100%; }
-    .wrap > * { margin-bottom: 28px; }
+    body { background: var(--bg); color: var(--ink); font-family: "Jost", sans-serif; font-size: 17px; line-height: 1.7; padding: 64px 24px 96px; }
+    .wrap { max-width: 620px; margin: 0 auto; }
+    .wrap > * { margin-bottom: 32px; }
     .wrap > *:last-child { margin-bottom: 0; }
-    h1 { font-size: 24px; font-weight: 600; }
-    h2 { font-size: 17px; font-weight: 600; margin-bottom: 8px; color: var(--accent); }
-    .app p { margin-bottom: 0; }
+    h1 { font-size: 28px; font-weight: 600; color: var(--ink); margin-bottom: 8px; }
+    h2 { font-size: 20px; font-weight: 600; color: var(--accent); margin-bottom: 12px; }
+    h3 { font-size: 16px; font-weight: 600; color: var(--ink); margin-bottom: 6px; }
+    .tagline { font-size: 18px; color: var(--ink); }
     a { color: var(--accent); font-weight: 600; text-decoration: none; }
     a:hover { text-decoration: underline; }
+    .app { background: var(--light); border: 1px solid var(--line); border-radius: 12px; padding: 28px; }
+    .app-links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 18px; }
+    .btn { display: inline-block; background: var(--accent); color: #fff; font-weight: 600; font-size: 15px; padding: 10px 20px; border-radius: 7px; text-decoration: none; }
+    .btn:hover { background: #6aa850; text-decoration: none; }
+    .btn-ghost { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+    .btn-ghost:hover { background: var(--light); }
+    ul { margin: 12px 0 0 20px; }
+    li { margin-bottom: 6px; }
+    .privacy-note { background: var(--light); border-left: 3px solid var(--accent); padding: 16px 20px; border-radius: 0 8px 8px 0; font-size: 15px; }
+    .footer { font-size: 14px; color: var(--ink); border-top: 1px solid var(--line); padding-top: 24px; }
+    .footer a { margin-right: 20px; }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>traumababies</h1>
-    <p>We build apps that respect your data, your inbox, and your right to be left alone.</p>
+
+    <div>
+      <h1>traumababies</h1>
+      <p class="tagline">We build privacy-first apps that respect your data and your right to be left alone.</p>
+    </div>
 
     <div class="app">
-      <h2>Sticky Notes for Gmail</h2>
-      <p>Attach a note to any email conversation. Your notes are saved in your own Google Drive, so they stay with the conversation. We do not have servers, so we never see or store your notes. They are yours.</p>
+      <h2>Sticky Notes for Gmail™</h2>
+      <p>Attach private notes to any Gmail conversation. Your note appears above the subject line so you always see it when you open the email. Notes sync automatically between your computer and your phone.</p>
+
+      <h3 style="margin-top:18px;">How it works</h3>
+      <ul>
+        <li>Open any email in Gmail and click the Sticky Notes icon to add a note.</li>
+        <li>Your note is saved immediately to a private folder in <strong>your own Google Drive</strong> — a hidden space only this app can see.</li>
+        <li>Open the same email on your phone and the note is already there.</li>
+        <li>Install the <strong>Chrome extension</strong> on your computer and the <strong>Google Workspace add-on</strong> on your phone to sync between both.</li>
+      </ul>
+
+      <h3 style="margin-top:18px;">Why we request Google Drive access</h3>
+      <p>Sticky Notes for Gmail asks for permission to access a private, app-only folder in your Google Drive (<code>drive.appdata</code> scope). This is the only way to save and sync your notes across your devices without using our own servers. We do not have servers. We never receive, see, or store your notes — they stay in your Google Drive, under your control, always.</p>
+
+      <h3 style="margin-top:18px;">Your privacy</h3>
+      <div class="privacy-note">
+        We do not collect, store, or transmit your notes or your email content. Your notes live in your own Google Drive. We have no servers and no database. <a href="https://traumababies.com/stickynotes/privacy">Read the full privacy policy →</a>
+      </div>
+
+      <div class="app-links">
+        <a class="btn" href="https://chromewebstore.google.com/detail/lojcolfefjcdcoidhpgkgbajnemdcnfe" target="_blank" rel="noopener">Get the Chrome Extension</a>
+        <a class="btn btn-ghost" href="https://traumababies.com/stickynotes/privacy">Privacy Policy</a>
+      </div>
     </div>
 
     <p>More apps on the way.</p>
 
-    <p><a href="/stickynotes/privacy.html">Privacy Policy</a></p>
+    <div class="footer">
+      <a href="https://traumababies.com/stickynotes/privacy">Privacy Policy</a>
+      <a href="https://traumababies.com/stickynotes/terms">Terms of Service</a>
+      <a href="mailto:info@traumababies.com">info@traumababies.com</a>
+    </div>
 
-    <p>info@traumababies.com</p>
   </div>
 </body>
 </html>
