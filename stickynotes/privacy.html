@@ -34,7 +34,7 @@
     <p class="date">Sticky Notes for Gmail™ — Effective July 26, 2026</p>
 
     <h2>Sticky Notes for Gmail</h2>
-    <p>This policy explains what Sticky Notes for Gmail (the &ldquo;app,&rdquo; comprising the Chrome extension and the companion Google Workspace add-on) does with information, and — just as importantly — what it does not do. The app is published by <strong>traumababies</strong>.</p>
+    <p>This policy explains what Sticky Notes for Gmail (the &ldquo;app,&rdquo; comprising the Chrome extension and the companion Google Workspace add-on) does with information, and — just as importantly — what it does not do. The app is published by <strong>traumababies</strong>, a trade name of <strong>Bisbee LLC</strong>.</p>
 
     <h3>The short version</h3>
     <p>Your notes are stored in <strong>your own Google Drive™</strong>, in a private application-data folder reserved solely for this app. We operate <strong>no servers</strong>. We never receive, store, transmit, or have access to your notes. Your notes remain within your Google account, on Google&rsquo;s infrastructure, under your control.</p>
@@ -70,6 +70,16 @@
 
     <h3>Data storage and security</h3>
     <p>Because your notes live in your own Google Drive, they are protected by Google&rsquo;s account security and your own account settings. We hold no copy and maintain no database of your notes. If you uninstall the app, your notes remain in your Drive until you choose to delete them; you may remove the app&rsquo;s data folder at any time through your Google account.</p>
+
+    <h3>Data protection mechanisms</h3>
+    <p>Your notes are protected by the following safeguards:</p>
+    <ul>
+      <li><strong>Encryption in transit:</strong> All communication between the app and Google&rsquo;s servers uses HTTPS (TLS 1.2 or higher).</li>
+      <li><strong>Encryption at rest:</strong> Your notes are stored in Google Drive, which encrypts all data at rest using AES-256.</li>
+      <li><strong>Access isolation:</strong> The app&rsquo;s OAuth token is scoped exclusively to a private application-data folder (<code>drive.appdata</code>) and cannot access any other file in your Drive. We never receive, store, or have access to your token or your Google credentials.</li>
+      <li><strong>No server-side storage:</strong> We operate no servers, databases, or logs. Your notes exist only in your Google account and on your local device.</li>
+      <li><strong>Data minimization:</strong> The app reads only the Gmail conversation identifier needed to attach your note. It does not read, collect, or transmit email content, subject lines, or sender/recipient information.</li>
+    </ul>
 
     <h3>Optional email updates</h3>
     <p>The app requires no email address to use. If you choose to share one, you decide independently whether to receive news of the Sticky Notes app, of new apps from <strong>traumababies</strong>, both, or neither. You may unsubscribe from either at any time, and we do not sell your email address to unrelated third parties.</p>
